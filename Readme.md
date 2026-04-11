@@ -2,7 +2,7 @@
 
 * Студент: [Маша](https://up.htmlacademy.ru/htmlcss-individual/2/user/2708125).
 * Наставник: [Евгения Подопригора] (https://htmlacademy.ru/profile/id2387199).
-
+* Сайт: [Мой проект Седона](https://cherm873.github.io/2708125-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
