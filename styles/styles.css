@@ -34,6 +34,7 @@ width: 1200px;
 }
 .navigation {
 display: flex;
+flex-wrap: wrap;
 }
 .page-header-logo {
   width: 140px;
@@ -114,6 +115,9 @@ display: flex;
   margin: 0;
   padding: 0;
 }
+.sight-item {
+  flex-grow: 1;
+}
 .sight-title {
   font-size: 30px;
   font-weight: 700;
@@ -153,6 +157,7 @@ display: flex;
 }
 .advantages-list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -219,6 +224,7 @@ display: flex;
 }
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
   width: 1060px;
   margin: 0 auto;
   justify-content: space-between;
