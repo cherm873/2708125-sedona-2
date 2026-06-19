@@ -411,32 +411,39 @@ body {
 .catalog-hotels-filters {
   display: flex;
 }
+
 .filter-infrastructure {
   width: 151px;
   margin-right: 70px;
 }
+
 .filter-housing {
   width: 151px;
 }
+
 .filter-price {
   width: 288px;
   margin-right: 70px;
   margin-left: auto;
 }
+
 .filter-button {
   width: 191px;
   text-align: center;
 }
+
 .header-block {
   background-color: #82B3D3;
   color: #ffffff;
   background-image: url("../images/inner-header-foto.jpg");
   background-size: 100% auto;
 }
+
 .header-block-container {
   width: 1060px;
   margin: 0 auto;
 }
+
 .inner-header-title {
   font-size: 60px;
   line-height: 78px;
@@ -465,9 +472,11 @@ body {
   font-weight: 400;
   text-decoration: none;
 }
+
 .catalog-hotels {
   padding-bottom: 50px;
 }
+
 .catalog-filter-list {
   margin: 0;
   padding: 0;
@@ -499,7 +508,7 @@ body {
 .button-filter-submit {
   background-color: #82B3D3;
   color: #ffffff;
-  margin-top:  56px;
+  margin-top: 56px;
   margin-bottom: 32px;
 }
 
@@ -601,11 +610,13 @@ body {
   list-style-type: none;
   padding-bottom: 60px;
 }
+
 .pagination-item {
   width: 60px;
   height: 60px;
   background-color: #82B3D3;
 }
+
 .pagination-item:not(:last-child) {
   margin-right: 8px;
 }
