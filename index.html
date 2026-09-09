@@ -185,34 +185,33 @@
         </button>
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-          <form action="https://echo.htmlacademy.ru/" method="get">
+          <form action="https://echo.htmlacademy.ru/" method="post">
             <fieldset class="modal-filter-group">
               <label class="label-modal" for="arrival">Дата заезда:</label>
               <div class="wrapper-input-date">
                 <input class="date-input arrival-date-input" type="text" name="arrival-date" id="arrival"
-                  placeholder="Укажите дату">
+                  placeholder="Укажите дату" required>
                 <span class="date-icon"></span>
               </div>
               <span class="date-info error-date">Мы не можем отправить вас в прошлое.</span>
               <label class="label-modal" for="departure">Дата выезда:</label>
               <div class="wrapper-input-date">
                 <input class="date-input departure-date-input" type="text" name="departure-date" id="departure"
-                  placeholder="Укажите дату">
+                  placeholder="Укажите дату" required>
                 <span class="date-icon"></span>
               </div>
               <span class="date-info free-date">На эти даты есть свободные номера. Пока есть.</span>
               <div class="wrapper-label-number">
-                <label class="label-modal label-number label-number-adults"> Взрослые:
+                <label class="label-modal label-number label-number-adults" for="adults-input"> Взрослые:</label>
                   <div class="wapper-number-input">
                     <button class="minus minus-adults">
                       <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M3 9v2h14V9z"/></svg>
                     </button>
-                    <input class="number-input" type="number" name="number-adults" value="0">
+                    <input class="number-input" type="number" name="number-adults" value="0" id="adults-input" required>
                     <button class="plus plus-adults">
                       <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6z"/></svg>
                     </button>
                   </div>
-                </label>
                 <label class="label-modal label-number label-number-children" for="number-children">Дети:
                   <span class="visually-hidden">Информация о детях</span>
                   <span class="tooltip">
@@ -229,7 +228,7 @@
                     <button class="minus minus-children">
                        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M3 9v2h14V9z"/></svg>
                     </button>
-                    <input class="number-input" id="number-children" type="number" name="number-children" value="0">
+                    <input class="number-input" id="number-children" type="number" name="number-children" value="0" required>
                     <button class="plus plus-children">
                       <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6z"/></svg>
                     </button>
