@@ -42,7 +42,7 @@
           </ul>
         </nav>
       </header>
-      <main class="main-inner">
+      <main class="main-inner" data-test="main">
         <div class="header-block">
           <div class="header-block-container">
             <header class="inner-header">
@@ -63,7 +63,7 @@
                 </li>
               </ul>
             </header>
-            <section class="catalog-hotels">
+            <section class="catalog-hotels" data-test="filter">
               <h2 class="visually-hidden">Фильтры выбора гостиниц</h2>
               <form class="catalog-hotels-filters" action="https://echo.htmlacademy.ru/" method="get">
                 <fieldset class="catalog-filter-group filter-infrastructure">
@@ -153,7 +153,7 @@
             </section>
           </div>
         </div>
-        <section class="sorting-hotels">
+        <section class="sorting-hotels" data-test="catalog">
           <div class="sorting-hotels-container">
             <h2 class="sorting-hotels-title">Найдено гостиниц: 38</h2>
             <div class="select-wrapper">
@@ -298,7 +298,7 @@
         </section>
       </main>
       <footer class="page-footer">
-        <section class="newsletter">
+        <section class="newsletter" data-test="subscribe">
           <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
           <p class="newsletter-discription">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -308,7 +308,7 @@
             <button class="newsletter-button" type="submit">Подписаться</button>
           </form>
         </section>
-        <div class="footer-container">
+        <section class="footer-container" data-test="footer">
           <section class="footer-social">
             <h2 class="visually-hidden">Социальные контакты</h2>
             <ul class="footer-social-list">
@@ -359,7 +359,7 @@
               </svg>
             </a>
           </section>
-        </div>
+        </section>
       </footer>
     </div>
   </body>
