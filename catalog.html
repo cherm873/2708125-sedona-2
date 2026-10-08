@@ -97,7 +97,8 @@
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input visually-hidden" type="radio" name="type-housing" value="hotel" checked>
+                        <input class="control-input visually-hidden" type="radio" name="type-housing" value="hotel"
+                          checked>
                         <span class="control-mark"></span>
                         <span class="control-label">Гостиница</span>
                       </label>
@@ -111,7 +112,8 @@
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input visually-hidden" type="radio" name="type-housing" value="apartments">
+                        <input class="control-input visually-hidden" type="radio" name="type-housing"
+                          value="apartments">
                         <span class="control-mark"></span>
                         <span class="control-label">Апартаменты</span>
                       </label>
@@ -121,26 +123,27 @@
                 <fieldset class="catalog-filter-group filter-price">
                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                   <div class="range-wrapper-inputs">
-                    <label class="catalog-filter-label">
-                     <input class="range-input filter-min" type="number" value="0" name="min-price">
-                     <span class="catalog-filter-range">от</span>
+                    <label class="catalog-filter-label catalog-filter-min">
+                      <input class="range-input filter-min" type="number" value="0" name="min-price">
+                      <span class="catalog-filter-range">от</span>
                     </label>
-                    <label class="catalog-filter-label">
-                       <input class="range-input filter-max" type="number" value="9000" name="max-price">
-                       <span class="catalog-filter-range">до</span>
+                    <label class="catalog-filter-label catalog-filter-max">
+                      <input class="range-input filter-max" type="number" value="9000" name="max-price">
+                      <span class="catalog-filter-range">до</span>
                     </label>
                   </div>
                   <div class="range">
                     <div class="range-scale">
                       <div class="range-bar" style="left: 0; width: 226px">
-                        <button class="range-toggle toggle-min">
+                        <button class="range-toggle toggle-min" type="button">
                           <span class="visually-hidden">Изменить минимальную цену</span>
                         </button>
-                        <button class="range-toggle toggle-max">
+                        <button class="range-toggle toggle-max" type="button">
                           <span class="visually-hidden">Изменить максимальную цену</span>
                         </button>
                       </div>
                     </div>
+                  </div>
                 </fieldset>
                 <div class="filter-button">
                   <button class="button button-filter-submit" type="submit">Применить</button>
@@ -186,7 +189,7 @@
                 <span class="card-price">От 4000 ₽</span>
               </p>
               <a class="button hotel-card-link-button" href="#">Подробнее</a>
-              <button class="button hotel-card-button">В избранное</button>
+              <button class="button hotel-card-button" type="button">В избранное</button>
               <p class="stars four-stars" role="img" aria-label="4 звезды">
                 <span class="star"></span>
                 <span class="star"></span>
@@ -201,7 +204,7 @@
             </li>
             <li class="hotels-card">
               <a class="hotel-card-link hotel-card-link-img" href="#">
-                <img class="hotels-card-img" src="images/catalog/catalog-hotel-2 .jpg" alt="Горы на фоне радуги"
+                <img class="hotels-card-img" src="images/catalog/catalog-hotel-2.jpg" alt="Горы на фоне радуги"
                   width="300" height="212"></a>
               <a class="hotel-card-link" href="#">
                 <h3 class="hotels-card-title">Villas at Poco Diablo</h3>
@@ -211,7 +214,7 @@
                 <span class="card-price">От 5000 ₽</span>
               </p>
               <a class="button hotel-card-link-button" href="#">Подробнее</a>
-              <button class="button hotel-card-button-like">В избранном</button>
+              <button class="button hotel-card-button-like" type="button">В избранном</button>
               <p class="stars four-stars" role="img" aria-label="4 звезды">
                 <span class="star"></span>
                 <span class="star"></span>
@@ -236,7 +239,7 @@
                 <span class="card-price">От 2500 ₽</span>
               </p>
               <a class="button hotel-card-link-button" href="#">Подробнее</a>
-              <button class="button hotel-card-button">В избранное</button>
+              <button class="button hotel-card-button" type="button">В избранное</button>
               <p class="stars three-stars" role="img" aria-label="3 звезды">
                 <span class="star"></span>
                 <span class="star"></span>
@@ -260,7 +263,7 @@
                 <span class="card-price">От 1500 ₽</span>
               </p>
               <a class="button hotel-card-link-button" href="#">Подробнее</a>
-              <button class="button hotel-card-button">В избранное</button>
+              <button class="button hotel-card-button" type="button">В избранное</button>
               <p class="stars two-stars" role="img" aria-label="2 звезды">
                 <span class="star"></span>
                 <span class="star"></span>
@@ -271,6 +274,7 @@
               </p>
             </li>
           </ul>
+          <div class="line-bottom"></div>
           <ul class="pagination">
             <li class="pagination-item pagination-item-current">
               <a class="pagination-link pagination-link-current">1</a>
@@ -285,7 +289,7 @@
               <a class="pagination-link" href="#">4</a>
             </li>
             <li class="pagination-item pagination-item-more">
-              <span class="pagination-link pagination-more" href="#">...</span>
+              <span class="pagination-link pagination-more">...</span>
             </li>
             <li class="pagination-item">
               <a class="pagination-link" href="#">10</a>
