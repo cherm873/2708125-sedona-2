@@ -86,6 +86,7 @@ img {
   max-width: 268px;
   margin-left: auto;
   margin-right: 70px;
+  justify-content: end;
 }
 
 .navigation-link-icon {
@@ -309,7 +310,7 @@ img {
 .sight-header {
   padding-top: 69px;
   padding-bottom: 90px;
-  width: 651px;
+  max-width: 655px;
   margin: 0 auto;
 }
 
@@ -513,6 +514,7 @@ img {
 .advantages-item {
   width: 400px;
   padding-bottom: 81px;
+  flex-grow: 1;
 }
 
 .advantages-item-medium {
@@ -1334,6 +1336,7 @@ img {
   text-decoration: none;
   grid-column: 1/-1;
 }
+
 .hotel-card-link:hover .hotels-card-title {
   color: #756157;
 }
@@ -1508,7 +1511,7 @@ img {
   content: "";
   background-color: #000000;
   position: absolute;
-  width: 14px;
+  width: 18px;
   height: 2px;
   top: 50%;
   left: 50%;
@@ -1568,10 +1571,16 @@ img {
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
+  max-width: 371px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .error-date {
   color: #ff5757;
+  max-width: 320px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .label-modal {
@@ -1580,13 +1589,14 @@ img {
   color: #000000;
   font-weight: 700;
   text-transform: capitalize;
-  margin: auto 0;
+  margin: 12px 0;
 }
 
 .label-number-adults {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-right: -12px;
 }
 
 .label-number-children {
@@ -1594,12 +1604,11 @@ img {
   flex-wrap: wrap;
   position: relative;
   align-items: center;
-
+  margin-left: 29px;
 }
 
 .wapper-number-input {
   width: 110px;
-  margin-left: 72px;
   display: flex;
 }
 
@@ -1616,6 +1625,8 @@ img {
 }
 
 .number-input {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
   border: none;
   width: 31px;
   box-sizing: border-box;
@@ -1700,13 +1711,14 @@ img {
 }
 
 .date-input {
+  font-family: "PT Sans", sans-serif;
   padding: 0;
   background-color: #f2f2f2;
   border: 3px solid #f2f2f2;
-  padding-left: 20px;
+  padding-left: 17px;
   padding-right: 54px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 7px;
   border-radius: 4px;
   margin-bottom: 4px;
   color: #000000;
@@ -1808,4 +1820,43 @@ img {
 
 .button-modal-form:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+
+.button-disabled,
+.button:disabled {
+  color: #e7e7e7;
+  background-color: rgb(117 97 87 / 57%);
+  ;
+}
+
+.button-disabled:focus,
+.button-disabled:hover,
+.button:disabled:hover {
+  background-color: rgb(117 97 87 / 57%);
+  outline: none;
+  cursor: default;
+}
+
+.field:disabled,
+.field:disabled:hover {
+  color: rgb(117 97 87 / 57%);
+  background-color: #dbb590;
+  border-color: rgb(117 97 87 / 57%);
+}
+
+.field:invalid {
+  box-shadow: none;
+}
+
+.field:focus:invalid {
+  border-color: #ea5454;
+}
+
+.control-input:disabled + .control-mark {
+  border-color: #242424;
+}
+
+.pagination-disabled {
+  background-color: rgb(117 97 87 / 57%);
 }
