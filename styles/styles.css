@@ -1602,10 +1602,13 @@ img {
   max-width: 110px;
   display: flex;
 }
+
 .wrapper-number-input input[type="number"] {
-    -moz-appearance: textfield;
-    appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  text-align: center;
 }
+
 .wrapper-label-number {
   display: flex;
   flex-wrap: wrap;
@@ -1632,6 +1635,9 @@ img {
   color: #000000;
   line-height: 20px;
   font-weight: 700;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  text-align: center;
 }
 
 .number-input:active,
