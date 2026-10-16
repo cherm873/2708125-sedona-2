@@ -1602,7 +1602,10 @@ img {
   max-width: 110px;
   display: flex;
 }
-
+.wrapper-number-input input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
 .wrapper-label-number {
   display: flex;
   flex-wrap: wrap;
@@ -1683,7 +1686,7 @@ img {
   top: 100%;
   left: 12px;
   transform: translateX(-50%);
-  /* display: none; */
+  display: none;
 }
 
 .tooltip-toggle:hover + .tooltip-text,
