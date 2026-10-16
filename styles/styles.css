@@ -1603,12 +1603,6 @@ img {
   display: flex;
 }
 
-.wrapper-number-input input[type="number"] {
-  -moz-appearance: textfield;
-  appearance: textfield;
-  text-align: center;
-}
-
 .wrapper-label-number {
   display: flex;
   flex-wrap: wrap;
